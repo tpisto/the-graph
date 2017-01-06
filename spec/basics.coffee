@@ -18,7 +18,7 @@ findSvgRoot = (editor) ->
   return apps[0]
 
 waitReady = (editor, callback) ->
-  setTimeout callback, 1000 # HACK
+  setTimeout callback, 6000 # HACK
 
 describeRender = (editor) ->
   svgRoot = findSvgRoot editor
@@ -41,6 +41,7 @@ describe 'Basics', ->
   describe 'loading a simple graph', ->
     render = null
     before (done) ->
+      @timeout 8*1000
       example = "'42' -> CONFIG foo(Foo) OUT -> IN bar(Bar)"
       parseFBP example, (err, graph) ->
         chai.expect(err).to.not.exist
