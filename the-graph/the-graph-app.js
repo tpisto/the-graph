@@ -62,6 +62,7 @@ module.exports.register = function (context) {
     svg: {
       className: "app-svg",
       ref: 'svg',
+      touchAction: 'none',
     },
     svgGroup: {
       className: "view"
@@ -365,6 +366,8 @@ module.exports.register = function (context) {
       if (this.props.onNodeSelection) {
         domNode.addEventListener("tap", this.unselectAll);
       }
+
+      domNode.setAttribute('touch-action', 'none');
 
       // Setup Hammer.js events for this and all children
       // The events are injected into the DOM to follow regular propagation rules
