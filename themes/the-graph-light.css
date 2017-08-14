@@ -1,5 +1,5 @@
 .the-graph-light .the-graph-app {
-  background-color: #fff;
+  background-color: #e8eef3;
   position: relative;
 }
 .the-graph-light .app-canvas,
@@ -29,17 +29,17 @@
   cursor: grab;
 }
 .the-graph-light .node-border {
-  fill: rgba(255,255,255,0.5);
-  stroke: #3b4245;
+  fill: rgba(210,220,228,0.94);
+  stroke: #a8b6c2;
   stroke-width: 2px;
 }
 .the-graph-light .node-rect {
-  fill: rgba(230,238,240,0.94);
+  fill: rgba(210,220,228,0.94);
   stroke: none;
 }
 @-webkit-keyframes error {
   0% {
-    fill: rgba(230,238,240,0.94);
+    fill: rgba(210,220,228,0.94);
   }
   100% {
     fill: rgba(255,0,0,0.94);
@@ -47,7 +47,7 @@
 }
 @-moz-keyframes error {
   0% {
-    fill: rgba(230,238,240,0.94);
+    fill: rgba(210,220,228,0.94);
   }
   100% {
     fill: rgba(255,0,0,0.94);
@@ -55,7 +55,7 @@
 }
 @-o-keyframes error {
   0% {
-    fill: rgba(230,238,240,0.94);
+    fill: rgba(210,220,228,0.94);
   }
   100% {
     fill: rgba(255,0,0,0.94);
@@ -69,24 +69,24 @@
   stroke: none;
 }
 .the-graph-light .eventcatcher {
-  fill: #000;
+  fill: #294256;
   fill-opacity: 0.1;
 }
 .the-graph-light .node:hover .node-rect {
-  fill: rgba(230,238,240,0.97);
+  fill: rgba(191,205,217,0.94);
 }
 .the-graph-light .node:hover .node-border {
-  stroke: #808080;
+  stroke: #97a7b5;
 }
 .the-graph-light .node:hover .port-arc {
-  fill: #808080;
+  fill: #97a7b5;
 }
 .the-graph-light .ex-inports .node-border {
-  fill: #e6e6e6;
+  fill: rgba(210,228,216,0.94);
   stroke: none;
 }
 .the-graph-light .ex-outports .node-border {
-  fill: #e6e6e6;
+  fill: rgba(210,228,216,0.94);
   stroke: none;
 }
 .the-graph-light .ex-inports .node .node-rect,
@@ -97,15 +97,15 @@
 }
 .the-graph-light .selection .ex-inports .node .node-border,
 .the-graph-light .selection .ex-outports .node .node-border {
-  fill: #e6e6e6;
+  fill: rgba(210,228,216,0.94);
 }
 .the-graph-light .small .node-border {
-  fill: rgba(230,238,240,0.94);
+  fill: rgba(210,220,228,0.94);
   stroke: none;
 }
 .the-graph-light .small .ex-inports .node .node-border,
 .the-graph-light .small .ex-outports .node .node-border {
-  fill: #e6e6e6;
+  fill: rgba(210,228,216,0.94);
 }
 .the-graph-light .node-bg {
   opacity: 0;
@@ -314,15 +314,15 @@
   animation: heartbeats 4s linear infinite;
 }
 .the-graph-light text {
-  font-family: "SourceCodePro", "Source Code Pro", Helvetica, Arial, sans-serif;
+  font-family: "Gotham", "SourceCodePro", "Source Code Pro", Helvetica, Arial, sans-serif;
   text-rendering: geometricPrecision; /* makes text scale smoothly */
   font-size: 14px;
-  fill: #000;
+  fill: #294256;
   text-anchor: middle;
   dominant-baseline: central;
 }
 .the-graph-light .text-bg-rect {
-  fill: rgba(255,255,255,0.5);
+  fill: rgba(255,255,255,0.2);
 }
 .the-graph-light .node-label,
 .the-graph-light .node-sublabel {
@@ -355,38 +355,38 @@
   visibility: visible;
 }
 .the-graph-light .context-modal-bg {
-  fill: rgba(255,255,255,0.5);
+  fill: rgba(255,255,255,0.6);
 }
 .the-graph-light .context-node-rect {
-  fill: #e0e3e6;
-  stroke: #404040;
+  fill: #b7c2cc;
+  stroke: #a8b6c2;
   stroke-width: 0.5px;
 }
 .the-graph-light .context-node-icon {
   font-size: 30px;
-  fill: #000;
+  fill: #294256;
 }
 .the-graph-light .context-icon {
   font-size: 20px;
-  fill: #000;
+  fill: #294256;
 }
 .the-graph-light .context-node-label {
   text-anchor: middle;
 }
 .the-graph-light .context-arc {
   stroke-width: 72px;
-  stroke: rgba(224,227,230,0.95);
+  stroke: rgba(210,220,228,0.94);
 }
 .the-graph-light .context-slice.click:hover .context-arc {
-  stroke: rgba(195,201,208,0.95);
+  stroke: rgba(191,205,217,0.94);
 }
 .the-graph-light .context-circle {
-  stroke: #404040;
+  stroke: #a8b6c2;
   fill: none;
   stroke-width: 1.5px;
 }
 .the-graph-light .context-circle-x {
-  stroke: #404040;
+  stroke: #a8b6c2;
   fill: none;
   stroke-width: 1px;
 }
@@ -394,22 +394,22 @@
   font-size: 12px;
 }
 .the-graph-light .context-port-bg {
-  fill: rgba(224,227,230,0.95);
+  fill: rgba(255,255,255,0.9);
 }
 .the-graph-light .context-port-bg.highlight {
-  stroke: #404040;
+  stroke: #a8b6c2;
   stroke-width: 1px;
 }
 .the-graph-light .context-port-hole {
   stroke-width: 2px;
-  fill: rgba(224,227,230,0.95);
-  stroke: #404040;
+  fill: rgba(210,220,228,0.94);
+  stroke: #a8b6c2;
 }
 .the-graph-light .context-port-path {
-  stroke: #404040;
+  stroke: #a8b6c2;
 }
 .the-graph-light .context-port-label {
-  fill: #000;
+  fill: #294256;
   dominant-baseline: central;
 }
 .the-graph-light .context-port-in .context-port-label {
@@ -449,16 +449,16 @@
 }
 .the-graph-light .node-icon {
   font-size: 45px;
-  fill: #3b4245;
+  fill: #fff;
   transition-property: font-size, fill;
   transition-duration: 0.5s, 0.3s;
 }
 .the-graph-light .small .node-icon {
-  fill: #171b1c;
+  fill: #fff;
   font-size: 66px;
 }
 .the-graph-light .big .node-icon {
-  fill: #c8ced0;
+  fill: #fff;
 }
 .the-graph-light .ex-inports .node-icon,
 .the-graph-light .small .ex-inports .node-icon {
@@ -469,11 +469,11 @@
   fill: #00cc3d;
 }
 .the-graph-light .port-circle-bg {
-  fill: #3b4245;
+  fill: #a8b6c2;
   opacity: 0;
 }
 .the-graph-light .port-arc {
-  fill: #3b4245;
+  fill: #a8b6c2;
 }
 .the-graph-light .port-circle-small {
   fill: none;
@@ -482,7 +482,7 @@
   visibility: hidden;
 }
 .the-graph-light .port-label {
-  fill: #0c0d0e;
+  fill: #33526b;
   visibility: hidden;
   font-size: 6px;
   dominant-baseline: central;
@@ -631,7 +631,7 @@
 }
 .the-graph-light .group-label {
   text-anchor: start;
-  fill: #000;
+  fill: #294256;
   font-size: 20px;
   transition-property: font-size;
   transition-duration: 0.5s;
@@ -642,7 +642,7 @@
   transition-duration: 0.5s;
 }
 .the-graph-light .group-description {
-  fill: #000;
+  fill: #294256;
   font-size: 12px;
   text-anchor: start;
 }
@@ -811,7 +811,7 @@
 }
 @-moz-keyframes error {
   0% {
-    fill: rgba(230,238,240,0.94);
+    fill: rgba(210,220,228,0.94);
   }
   100% {
     fill: rgba(255,0,0,0.94);
@@ -819,7 +819,7 @@
 }
 @-webkit-keyframes error {
   0% {
-    fill: rgba(230,238,240,0.94);
+    fill: rgba(210,220,228,0.94);
   }
   100% {
     fill: rgba(255,0,0,0.94);
@@ -827,7 +827,7 @@
 }
 @-o-keyframes error {
   0% {
-    fill: rgba(230,238,240,0.94);
+    fill: rgba(210,220,228,0.94);
   }
   100% {
     fill: rgba(255,0,0,0.94);
@@ -835,7 +835,7 @@
 }
 @keyframes error {
   0% {
-    fill: rgba(230,238,240,0.94);
+    fill: rgba(210,220,228,0.94);
   }
   100% {
     fill: rgba(255,0,0,0.94);
